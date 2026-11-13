@@ -1,0 +1,5 @@
+model,mean_pr_auc,std_pr_auc,mean_roc_auc,std_roc_auc,mean_f1,mean_balanced_acc,mean_accuracy
+logistic_regression,0.6599,0.0196,0.8459,0.0124,0.6296,0.7664,0.7497
+hist_gradient_boosting,0.6473,0.0215,0.8376,0.0107,0.5806,0.7116,0.7985
+random_forest,0.6184,0.0303,0.8263,0.0119,0.6044,0.7339,0.778
+dummy,0.2654,0.0001,0.5,0.0,0.0,0.5,0.7346

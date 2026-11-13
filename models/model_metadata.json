@@ -1,0 +1,31 @@
+{
+  "model_name": "logistic_regression",
+  "trained_at": "2026-11-01T10:22:20.208894+00:00",
+  "random_seed": 42,
+  "train_samples": 5634,
+  "positive_class_ratio": 0.2654,
+  "numeric_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "model_file": "P:\\Internship\\Customer Retention & Churn Analysis\\models\\churn_pipeline.joblib"
+}

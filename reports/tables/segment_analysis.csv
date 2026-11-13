@@ -1,0 +1,26 @@
+segment_dimension,segment_value,customer_count,churned_count,churn_rate_pct,ci_95_lower_pct,ci_95_upper_pct,exposure_proxy,total_monthly_charges,low_sample_flag
+Contract,Month-to-month,3875,1655,42.71,41.16,44.27,120847.1,257294.15,False
+Contract,One year,1473,166,11.27,9.75,12.99,14118.45,95816.6,False
+Contract,Two year,1695,48,2.83,2.14,3.73,4165.3,103005.85,False
+InternetService,Fiber optic,3096,1297,41.89,40.17,43.64,114300.05,283284.4,False
+InternetService,DSL,2421,459,18.96,17.45,20.57,22529.2,140665.35,False
+InternetService,No,1526,113,7.4,6.2,8.83,2301.6,32166.85,False
+PaymentMethod,Electronic check,2365,1071,45.29,43.29,47.3,84288.75,180345.0,False
+PaymentMethod,Mailed check,1612,308,19.11,17.26,21.1,16803.6,70794.3,False
+PaymentMethod,Bank transfer (automatic),1544,258,16.71,14.93,18.65,20091.9,103745.45,False
+PaymentMethod,Credit card (automatic),1522,232,15.24,13.52,17.14,17946.6,101231.85,False
+PaperlessBilling,Yes,4171,1400,33.57,32.15,35.01,109510.0,306792.8,False
+PaperlessBilling,No,2872,469,16.33,15.02,17.73,29620.85,149323.8,False
+TechSupport,No,3473,1446,41.64,40.01,43.28,110709.8,259039.55,False
+TechSupport,Yes,2044,310,15.17,13.68,16.79,26119.45,164910.2,False
+TechSupport,No internet service,1526,113,7.4,6.2,8.83,2301.6,32166.85,False
+OnlineSecurity,No,3498,1461,41.77,40.14,43.41,112762.75,264774.35,False
+OnlineSecurity,Yes,2019,295,14.61,13.14,16.22,24066.5,159175.4,False
+OnlineSecurity,No internet service,1526,113,7.4,6.2,8.83,2301.6,32166.85,False
+tenure_band,0-6m (Onboarding),1481,784,52.94,50.39,55.47,49896.1,81067.95,False
+tenure_band,7-12m (Early),705,253,35.89,32.43,39.49,19058.15,41561.8,False
+tenure_band,13-24m (Adolescent),1024,294,28.71,26.02,31.56,23081.65,62829.85,False
+tenure_band,25-48m (Mature),1594,325,20.39,18.48,22.44,27462.5,105093.3,False
+tenure_band,49+m (Loyal),2239,213,9.51,8.37,10.8,19632.45,165563.7,False
+SeniorCitizen,Yes,1142,476,41.68,38.85,44.56,38419.6,91154.85,False
+SeniorCitizen,No,5901,1393,23.61,22.54,24.71,100711.25,364961.75,False

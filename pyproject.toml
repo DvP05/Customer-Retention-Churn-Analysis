@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retention"
+version = "0.1.0"
+description = "Customer Retention & Churn Intelligence Application"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Data Science & Analytics Intern" }
+]
+dependencies = [
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "scipy>=1.12.0",
+    "scikit-learn>=1.4.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "plotly>=5.18.0",
+    "streamlit>=1.31.0",
+    "pyyaml>=6.0.1",
+    "joblib>=1.3.2",
+    "pytest>=8.0.0",
+    "duckdb>=0.10.0",
+    "pyarrow>=15.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+pythonpath = ["src"]

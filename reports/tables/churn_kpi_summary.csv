@@ -1,0 +1,2 @@
+total_customers,churned_customers,churn_prevalence,churn_prevalence_pct,retained_customers,retention_complement,retention_complement_pct,churn_exposure_proxy,total_monthly_charges,exposure_share_pct,median_tenure_months,mean_tenure_months
+7043,1869,0.2653698707936959,26.54,5174,0.7346301292063041,73.46,139130.85,456116.6,30.5,29.0,32.4

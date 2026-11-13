@@ -1,0 +1,63 @@
+project:
+  name: customer-retention-churn
+  random_seed: 42
+
+data:
+  raw_path: data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
+  processed_parquet: data/processed/customers_clean.parquet
+  processed_csv: data/processed/customers_clean.csv
+  id_column: customerID
+  target_column: Churn
+  positive_label: "Yes"
+  negative_label: "No"
+
+columns:
+  numeric:
+    - tenure
+    - MonthlyCharges
+    - TotalCharges
+  categorical:
+    - gender
+    - SeniorCitizen
+    - Partner
+    - Dependents
+    - PhoneService
+    - MultipleLines
+    - InternetService
+    - OnlineSecurity
+    - OnlineBackup
+    - DeviceProtection
+    - TechSupport
+    - StreamingTV
+    - StreamingMovies
+    - Contract
+    - PaperlessBilling
+    - PaymentMethod
+
+analysis:
+  tenure_column: tenure
+  monthly_charge_column: MonthlyCharges
+  tenure_bins: [0, 6, 12, 24, 48, 1000]
+  tenure_labels:
+    - "0-6m (Onboarding)"
+    - "7-12m (Early)"
+    - "13-24m (Adolescent)"
+    - "25-48m (Mature)"
+    - "49+m (Loyal)"
+
+model:
+  test_size: 0.20
+  cv_folds: 5
+  positive_label: "Yes"
+  threshold: 0.50
+  candidates:
+    - dummy
+    - logistic_regression
+    - hist_gradient_boosting
+    - random_forest
+
+outputs:
+  reports_dir: reports
+  figures_dir: reports/figures
+  tables_dir: reports/tables
+  models_dir: models

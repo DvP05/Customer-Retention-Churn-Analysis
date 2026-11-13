@@ -1,0 +1,6 @@
+tenure_band,customer_count,share_of_total_customers_pct,churned_count,retained_count,churn_prevalence_pct,retention_rate_pct,median_tenure_months,mean_monthly_charges,exposure_proxy
+0-6m (Onboarding),1481,21.03,784,697,52.94,47.06,2.0,54.74,49896.1
+7-12m (Early),705,10.01,253,452,35.89,64.11,9.0,58.95,19058.15
+13-24m (Adolescent),1024,14.54,294,730,28.71,71.29,18.0,61.36,23081.65
+25-48m (Mature),1594,22.63,325,1269,20.39,79.61,36.0,65.93,27462.5
+49+m (Loyal),2239,31.79,213,2026,9.51,90.49,64.0,73.95,19632.45
